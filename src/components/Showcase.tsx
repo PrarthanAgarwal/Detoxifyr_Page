@@ -2,17 +2,17 @@ import { motion } from 'framer-motion';
 
 const screenshots = [
   {
-    url: "/Images/1.PNG",
+    url: "/images/1.png",
     title: "Session Page",
     description: "Start and manage your focused viewing sessions with detailed controls"
   },
   {
-    url: "/Images/2.PNG",
+    url: "/images/2.png",
     title: "Curated Videos",
     description: "Browse through a personalized feed of high-quality, filtered content"
   },
   {
-    url: "/Images/3.PNG",
+    url: "/images/3.png",
     title: "Session History",
     description: "Track your viewing patterns and analyze your content consumption habits"
   }

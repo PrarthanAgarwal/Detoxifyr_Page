@@ -51,7 +51,7 @@ export function Hero() {
           >
             <div className="relative animate-float">
               <img
-                src="Images/floating_screen_final.png"
+                src="/images/floating_screen_final.png"
                 alt="Detoxifyr Interface"
                 className="rounded-xl shadow-2xl"
               />
