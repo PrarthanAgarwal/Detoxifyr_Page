@@ -29,12 +29,12 @@ export function TermsAndPrivacy() {
         >
           <div className="prose prose-lg max-w-none">
             <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
-            <p className="text-gray-600 italic mb-8">Last Updated: March 2024</p>
+            <p className="text-gray-600 italic mb-8">Last Updated: December 2024</p>
 
             <h2 className="text-2xl font-bold mt-8 mb-4">Introduction</h2>
             <p>
-              Detoxifyr ("we," "our," or "the extension") is committed to protecting your privacy. 
-              This policy explains how we collect, use, and protect your data when you use our 
+              Detoxifyr ("I," "my," or "the extension") is committed to protecting your privacy. 
+              This policy explains how I collect, use, and protect your data when you use my 
               YouTube feed customization browser extension.
             </p>
 
@@ -77,13 +77,26 @@ export function TermsAndPrivacy() {
             <h2 className="text-2xl font-bold mt-8 mb-4">4. Contact</h2>
             <p>For privacy concerns or terms clarification:</p>
             <ul>
-              <li>Email: support@detoxifyr.com</li>
-              <li>GitHub Issues: [Repository Issues Page]</li>
-              <li>Extension Support Page</li>
+              <li>Email: <a 
+                href="mailto:prarthanagarwaljeen@gmail.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-brand-primary hover:text-brand-primary/90 underline"
+              >
+                Click here ↙
+              </a></li>
+              <li>GitHub Issues: <a 
+                href="https://github.com/PrarthanAgarwal/Detoxifyr/issues" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-brand-primary hover:text-brand-primary/90 underline"
+              >
+                Extension Repository Issues
+              </a></li>
             </ul>
 
             <div className="mt-12 mb-8 text-gray-600 text-sm">
-              Last Updated: March 2024
+              Last Updated: December 2024
             </div>
           </div>
         </motion.div>

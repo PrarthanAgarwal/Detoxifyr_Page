@@ -43,7 +43,7 @@ export function Metrics() {
             Quality Metrics
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Our advanced algorithms ensure you get the highest quality content
+            My advanced algorithms ensure you get the highest quality content
           </p>
         </div>
 

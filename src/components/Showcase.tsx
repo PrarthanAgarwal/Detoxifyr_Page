@@ -27,7 +27,7 @@ export function Showcase() {
             Beautiful Interface, Powerful Features
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Experience YouTube the way it should be - clean, focused, and tailored to your preferences
+            Experience YouTube the way it should be - clean, focused, and tailored to your preferences with my extension
           </p>
         </div>
 

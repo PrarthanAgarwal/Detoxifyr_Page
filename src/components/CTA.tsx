@@ -15,7 +15,7 @@ export function CTA() {
           Be Among the First to Experience Detoxifyr
         </h2>
         <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-          Sign up for the waitlist and get early access when we launch
+          Sign up for the waitlist and get early access when I launch
         </p>
         
         <div className="flex flex-wrap justify-center gap-4">

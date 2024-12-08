@@ -18,13 +18,14 @@ export function Hero() {
           >
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 text-white mb-6">
               <span className="animate-pulse mr-2">●</span>
-              Coming Soon
+              Chrome Extension Coming Soon
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Take Control of Your YouTube Experience
+              A Better YouTube Experience with my Browser Extension
             </h1>
             <p className="text-xl text-white/90 mb-8">
-              Join the waitlist for early access to powerful content curation tools that help you focus on what matters.
+              Detoxifyr is a powerful Chrome extension that helps you filter and curate your YouTube feed, 
+              ensuring you spend time on content that matters.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -37,7 +38,7 @@ export function Hero() {
                 }}
                 style={{ position: 'relative' }}
               >
-                Join Waitlist
+                Join Extension Waitlist
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
