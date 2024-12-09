@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Github } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 
@@ -18,21 +18,33 @@ export function CTA() {
           Sign up for the waitlist and get early access when I launch
         </p>
         
-        <div className="flex flex-wrap justify-center gap-4">
-          <Button 
-            variant="secondary" 
-            size="lg" 
-            className="group"
-            onClick={handleWaitlistClick}
-          >
-            Join Waitlist
-            <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-          </Button>
-          <Link to="/terms-privacy">
-            <Button variant="secondary" size="lg">
-              Terms & Privacy
+        <div className="flex flex-col items-center gap-6">
+          <div className="flex flex-wrap justify-center gap-4">
+            <Button 
+              variant="secondary" 
+              size="lg" 
+              className="group"
+              onClick={handleWaitlistClick}
+            >
+              Join Waitlist
+              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
-          </Link>
+            <Link to="/terms-privacy">
+              <Button variant="secondary" size="lg">
+                Terms & Privacy
+              </Button>
+            </Link>
+          </div>
+          
+          <a
+            href="https://github.com/PrarthanAgarwal/Detoxifyr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-white/80 hover:text-white transition-colors"
+          >
+            <Github className="w-5 h-5 mr-2" />
+            View on GitHub
+          </a>
         </div>
       </div>
     </section>
